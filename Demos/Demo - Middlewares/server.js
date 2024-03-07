@@ -1,12 +1,14 @@
 const express = require('express');
 const router = require('./routers/router');
 const applicationMiddleware = require('./middlewares/applicationMiddleware');
+const applicationMiddleware2 = require('./middlewares/applicationMiddleware2');
 const errorMiddleware = require('./middlewares/errorMiddleware');
 
 const PORT = 8080;
 const app = express();
 
 // Utilisation du middleware application level par le serveur express
+app.use(applicationMiddleware2)
 app.use(applicationMiddleware)
 
 // Utilisation du routeur général par le serveur
@@ -15,7 +17,7 @@ app.use('/api', router);
 
 
 
-// Utilisation du middleware d'erreur par la serveur express 
+// Utilisation du middleware d'erreur par la serveur express
 // Toujours le dernier à être utilisé par l'app (le serveur)
 app.use(errorMiddleware);
 
