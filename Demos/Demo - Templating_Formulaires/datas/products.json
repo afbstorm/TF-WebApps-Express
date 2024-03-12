@@ -1,0 +1,23 @@
+[
+    { "id": 1, "name": "T-shirt", "price": 20, "image": "https://tshirtmania.be/2201-medium_default/bisous-m-chou-ath.jpg" },
+    { "id": 2, "name": "Pantalon", "price": 30, "image": "https://www.cdiscount.com/pdt2/7/0/1/1/700x700/mp78278701/rw/pantalon-cargo-homme-grande-taille-de-travail-a.jpg" },
+    { "id": 3, "name": "Chaussures de sport", "price": 50, "image": "https://shop.maniet.be/r-images/920-x-600-Hommes-Baskets_3.webp?mode=resize&w=1400&h=1020&mediaGuid=bf55f4db-c542-4db8-b0c2-2dc4f8b1266c&c=d62f59bcffe77d46c4c657d5e69059245c083f5bfb05445fd51a95be10b49400" },
+    { "id": 4, "name": "Sac à dos", "price": 40, "image": "https://cdn.engelbert-strauss.be/assets/pdp/images/One_MainImage_Desktop/product/7.Release.7070520/Backpack_e_s_motion_ten-277840-0-638337249345257908.jpg" },
+    { "id": 5, "name": "Montre", "price": 100, "image": "https://www.montre.be/pictures/jaguar-j805-b-j805-b-13629672.jpg" },
+    { "id": 6, "name": "Lunettes de soleil", "price": 25, "image": "https://cliniquebellevue.com/wp-content/uploads/2019/06/lunettes-de-soleil.jpg" },
+    { "id": 7, "name": "Casquette", "price": 15, "image": "https://m.media-amazon.com/images/I/51NS8MXtvoL._AC_SY780_.jpg" },
+    { "id": 8, "name": "Pull", "price": 45, "image": "https://boutique-streetwear.com/cdn/shop/products/PULL-ESSENTIALS-GRIS_1200x.jpg?v=1677975991" },
+    { "id": 9, "name": "Jupe", "price": 35, "image": "https://www.bleu-bonheur.be/media/catalog/product/cache/1cf62c7e09bfb2dd36a43a996e02ea13/5/4/54754-03.jpg" },
+    { "id": 10, "name": "Chemise", "price": 30, "image": "https://images.maison123.com/on/demandware.static/-/Sites-UPAP-master/default/dwc1c708ec/654167201_x.jpg?sw=1000&sh=1515" },
+    { "id": 11, "name": "Robe", "price": 55, "image": "https://www.rienneseperd.com/app/uploads/2022/03/robe-chardonneret-rouge-faite-au-quebec-rien-ne-se-perd-560x840.jpg" },
+    { "id": 12, "name": "Short", "price": 25, "image": "https://cdn.engelbert-strauss.be/assets/pdp/images/Three_MainImage_Crop_Desktop/product/7.Release.3160530/Short_e_s_motion-165248-1-637626158802513245.jpg" },
+    { "id": 13, "name": "Veste", "price": 60, "image": "https://images.only.com/22021446/3748007/006/onlysons-vestes-brown.jpg?v=c91c8d1f04211679eee52f448789237a&format=webp&width=1280&quality=90&key=25-0-3" },
+    { "id": 14, "name": "Ceinture", "price": 20, "image": "https://www.leporteurdemenhir.com/upload/image/ceinture-cuir-marron-de-120-a-170-cm-lindenmann-p-image-34055-grande.jpg" },
+    { "id": 15, "name": "Cravate", "price": 18, "image": "https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/blt2eee84706cd7c001/60dbbe03a7307e39e4df337f/47-1_22.jpg?format=pjpg&auto=webp&quality=75%2C90&width=3840" },
+    { "id": 16, "name": "Chaussettes", "price": 8, "image": "https://www.cadeauxfolies.be/media/catalog/product/cache/062e45dbf31eec6e301505cbcbf442f4/p/e/personalisierte_socken_mit_gesciht.webp" },
+    { "id": 17, "name": "Portefeuille", "price": 30, "image": "https://www.edisac.be/images/article_la/493871.jpg" },
+    { "id": 18, "name": "Écharpe", "price": 22, "image": "https://www.comptoir-irlandais.com/30029/echarpe-merinos-john-hanly.jpg" },
+    { "id": 19, "name": "Boucles d'oreilles", "price": 40, "image": "https://images.meesho.com/images/products/89645725/g3lxb_512.webp" },
+    { "id": 20, "name": "Collier", "price": 35, "image": "https://be.pandora.net/dw/image/v2/BJRN_PRD/on/demandware.static/-/Sites-pandora-master-catalog/default/dwc9aa4e98/productimages/singlepackshot/388425C01_RGB.jpg?sw=900&sh=900&sm=fit&sfrm=png&bgcolor=F5F5F5" }
+  ]
+  

@@ -1,0 +1,9 @@
+extends layout 
+
+block content 
+    h2 Liste des produits 
+    ul 
+        each product in products 
+            li 
+                img(src=product.image alt=product.name)
+                a(href=`/products/details/${product.id}`) #{product.name} 
