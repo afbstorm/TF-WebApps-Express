@@ -1,0 +1,4 @@
+1 - Créer le fichier server.js qui va contenir l'initialisation du serveur, la gestion des fichiers statiques, du moteur de templating, et du routing, etc...
+2 - Créer le dossier views avec les différentes fichier .pug qui vont définir l'apparence de l'application (layout.pug; main.pug; footer.pug)
+3 - Créer le dossier public avec à l'intérieur le dossier css qui contiendra le fichier index.css
+4 - Créer un dossier datas qui contenir un fichier json (products.json) qui va contenir une liste de produits que l'on afficher dans les vues
