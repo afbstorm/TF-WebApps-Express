@@ -1,0 +1,35 @@
+doctype html
+html
+    head
+        meta(name='description' content='Site de vente en ligne')
+        title Boutique en ligne
+        link(rel="stylesheet", href="/css/index.css")
+
+    body
+        include header
+        nav.menu
+            ul.menu-list
+                li.menu-item
+                    a.menu-link(href="/") Accueil
+                li.menu-item
+                    a.menu-link(href="/menus") Carte
+                li.menu-item
+                    a.menu-link(href="/reservation") Réservation
+                li.menu-item
+                    a.menu-link(href="/admin") Administration
+
+        block content
+
+        include footer
+
+        script.
+            document.addEventListener("DOMContentLoaded", () => {
+                window.toggleAccordian = function (id) {
+                    const element = document.getElementById(id);
+                    if (element.className === 'accordian-active') {
+                        element.className = 'accordian'
+                    } else {
+                        element.className = 'accordian-active';
+                    }
+                }
+            });

@@ -1,0 +1,310 @@
+{
+  "entrees": [
+    {
+      "id": 1,
+      "nom": "Caldo Verde",
+      "prix": "5.00",
+      "description": "Soupe traditionnelle portugaise aux choux verts et au chorizo",
+      "img": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/7GVDC762YBRV5L3LSAOU4XBVQU.JPG&w=1440",
+      "allergenes": [
+        "gluten"
+      ],
+      "ingrédients": [
+        "choux verts",
+        "chorizo",
+        "pommes de terre"
+      ]
+    },
+    {
+      "id": 2,
+      "nom": "Chorizo grillé",
+      "prix": "6.00",
+      "description": "Chorizo grillé au feu de bois",
+      "img": "https://thumbs.dreamstime.com/b/le-chourico-portugais-traditionnel-ou-chorizo-espagnol-pr%C3%A9par%C3%A9-dans-115144243.jpg",
+      "allergenes": [],
+      "ingrédients": [
+        "chorizo"
+      ]
+    },
+    {
+      "id": 3,
+      "nom": "Sardines grillées",
+      "prix": "7.00",
+      "description": "Sardines grillées avec du sel marin",
+      "img": "https://lisbonne.net/wp-content/uploads/2020/01/conseils_sardines_grillees_portugal.jpg",
+      "allergenes": [
+        "poisson"
+      ],
+      "ingrédients": [
+        "sardines",
+        "sel"
+      ]
+    },
+    {
+      "id": 4,
+      "nom": "Salade de poulpe",
+      "prix": "8.00",
+      "description": "Salade de poulpe fraîche et légère avec oignons et poivrons",
+      "img": "https://lesfillesatable.files.wordpress.com/2015/07/img_6520.jpg",
+      "allergenes": [
+        "fruits de mer"
+      ],
+      "ingrédients": [
+        "poulpe",
+        "oignons",
+        "poivrons",
+        "persil",
+        "citron",
+        "huile d'olive"
+      ]
+    },
+    {
+      "id": 5,
+      "nom": "Oeufs de morue",
+      "prix": "9.50",
+      "description": "Délicieuses boulettes de morue et de pommes de terre, frites jusqu'à obtenir une croûte dorée",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6YJFaqXd15nP2cTqN--nKtjYzFnzWJyR3sO7f36150w&s",
+      "allergenes": [
+        "poisson"
+      ],
+      "ingrédients": [
+        "morue",
+        "pommes de terre",
+        "œufs",
+        "persil",
+        "huile pour la friture"
+      ]
+    },
+    {
+      "id": 6,
+      "nom": "Soupe de fruits de mer",
+      "prix": "7.00",
+      "description": "Riche soupe de fruits de mer avec une variété de poissons et de coquillages",
+      "img": "https://i.notrefamille.com/1400x787/smart/2020/09/24/12266-large.jpg",
+      "allergenes": [
+        "poisson",
+        "fruits de mer"
+      ],
+      "ingrédients": [
+        "poisson",
+        "moules",
+        "crevettes",
+        "tomates",
+        "oignons",
+        "ail"
+      ]
+    }
+  ],
+  "plats": [
+    {
+      "id": 7,
+      "nom": "Bacalhau à Brás",
+      "prix": "15.00",
+      "description": "Plat traditionnel à base de morue, d'œufs et de pommes de terre",
+      "img": "https://justcookwithmichael.com/wp-content/uploads/2021/01/bacalhau-bras-fries-potato-cod-6-scaled.jpg",
+      "allergenes": [
+        "poisson",
+        "œufs"
+      ],
+      "ingrédients": [
+        "morue",
+        "oignons",
+        "œufs",
+        "pommes de terre"
+      ]
+    },
+    {
+      "id": 8,
+      "nom": "Frango Piri Piri",
+      "prix": "12.00",
+      "description": "Poulet grillé mariné dans une sauce épicée piri piri",
+      "img": "https://img.static-rmg.be/a/food/image/q75/w640/h400/15707/frango-com-piri-piri.jpg",
+      "allergenes": [],
+      "ingrédients": [
+        "poulet",
+        "sauce piri piri"
+      ]
+    },
+    {
+      "id": 9,
+      "nom": "Porco à Alentejana",
+      "prix": "18.00",
+      "description": "Ragoût de porc et palourdes à la mode de l'Alentejo",
+      "img": "https://www.foodandwine.com/thmb/YZiLCDiRJE-7vNDqefzIK-LrWM0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/portugese-braised-pork-and-clams-FT-RECIPE0919-e06ec9aee6c3408cbc7318a4ea771d18.jpg",
+      "allergenes": [
+        "mollusques"
+      ],
+      "ingrédients": [
+        "porc",
+        "palourdes",
+        "pommes de terre",
+        "coriandre"
+      ]
+    },
+    {
+      "id": 10,
+      "nom": "Feijoada à Transmontana",
+      "prix": "15.00",
+      "description": "Plat traditionnel à base de haricots rouges, de porc et de légumes",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr9Nx3_aj-SNx5fDjDxi9oSOJouDbkjEpvPLXdoiS_zA&s",
+      "allergenes": [],
+      "ingrédients": [
+        "haricots rouges",
+        "porc",
+        "carottes",
+        "chou",
+        "oignon"
+      ]
+    },
+    {
+      "id": 11,
+      "nom": "Alheira de Mirandela",
+      "prix": "12.00",
+      "description": "Saucisse fumée typique servie avec pommes de terre frites et œuf au plat",
+      "img": "https://www.evasoes.pt/files/2021/03/Alheira_Mirandela-960x640.jpg",
+      "allergenes": [],
+      "ingrédients": [
+        "saucisse Alheira",
+        "pommes de terre",
+        "œuf"
+      ]
+    },
+    {
+      "id": 12,
+      "nom": "Arroz de Pato à Portuguesa",
+      "prix": "16.50",
+      "description": "Riz au canard cuit au four avec chorizo, recette traditionnelle portugaise",
+      "img": "https://www.pingodoce.pt/wp-content/uploads/2016/12/arroz-de-pato.jpeg",
+      "allergenes": [],
+      "ingrédients": [
+        "canard",
+        "riz",
+        "chorizo",
+        "carottes",
+        "oignon",
+        "ail"
+      ]
+    }
+  ],
+  "desserts": [
+    {
+      "id": 13,
+      "nom": "Pastéis de Nata",
+      "prix": "3.00",
+      "description": "Petits flans portugais, servis dans une pâte feuilletée croustillante",
+      "img": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/8383edd4-3423-4088-acf8-9257f471c057/Derivates/44b922ac-ec34-4091-9760-270f73997d1c.jpg",
+      "allergenes": [
+        "œufs",
+        "lait",
+        "gluten"
+      ],
+      "ingrédients": [
+        "crème pâtissière",
+        "pâte feuilletée"
+      ]
+    },
+    {
+      "id": 14,
+      "nom": "Arroz Doce",
+      "prix": "4.00",
+      "description": "Riz au lait portugais, parfumé à la cannelle",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPVk46mCp0X1gmISEL5FhjqVUMo_CZo8yLoJOqZJf_h9a2kyEPPgnrpqznwCUE3Ounctg&usqp=CAU",
+      "allergenes": [
+        "lait"
+      ],
+      "ingrédients": [
+        "riz",
+        "lait",
+        "cannelle"
+      ]
+    },
+    {
+      "id": 15,
+      "nom": "Bolo de Bolacha",
+      "prix": "5.00",
+      "description": "Gâteau traditionnel portugais aux biscuits et à la crème",
+      "img": "https://docerar.pt/wp-content/uploads/2020/02/bolo-bolacha.jpg",
+      "allergenes": [
+        "gluten",
+        "lait"
+      ],
+      "ingredients": [
+        "biscuits",
+        "crème",
+        "sucre",
+        "café"
+      ]
+    },
+    {
+      "id": 16,
+      "nom": "Toucinho do Céu",
+      "prix": "5.00",
+      "description": "Gâteau portugais traditionnel à base de jaunes d'œufs et d'amandes",
+      "img": "https://pt.petitchef.com/imgupl/recipe/toucinho-do-ceu-com-menos-ovos--187666p283796.jpg",
+      "allergenes": [
+        "œufs",
+        "noix"
+      ],
+      "ingrédients": [
+        "jaunes d'œufs",
+        "sucre",
+        "amandes"
+      ]
+    },
+    {
+      "id": 17,
+      "nom": "Rabanadas",
+      "prix": "4.00",
+      "description": "Version portugaise du pain perdu, généralement servie pendant la période de Noël",
+      "img": "https://www.pingodoce.pt/wp-content/uploads/2017/09/rabanadas.jpg",
+      "allergenes": [
+        "gluten",
+        "œufs",
+        "lait"
+      ],
+      "ingrédients": [
+        "pain",
+        "lait",
+        "œufs",
+        "cannelle",
+        "sucre"
+      ]
+    }
+  ],
+  "menu": {
+    "entrees": [
+        "Salade de poulpe",
+        "Caldo Verde"
+    ],
+    "plats": [
+        "Arroz de Pato à Portuguesa",
+        "Porco à Alentejana",
+        "Bacalhau à Brás"
+    ],
+    "desserts": [
+        "Toucinho do Céu",
+        "Arroz Doce"
+    ],
+    "vins": [
+        "Vinho do Porto",
+        "Alentejo Red"
+    ]
+  },
+  "vins": [
+    {
+      "id": 18,
+      "nom": "Vinho Verde",
+      "prix": "15.00"
+    },
+    {
+      "id": 19,
+      "nom": "Vinho do Porto",
+      "prix": "25.00"
+    },
+    {
+      "id": 20,
+      "nom": "Alentejo Red",
+      "prix": "20.00"
+    }
+  ]
+}

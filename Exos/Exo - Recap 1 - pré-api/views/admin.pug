@@ -1,0 +1,19 @@
+extends layout
+
+block content
+    .reservation-container
+        form(action="/admin", method='POST')
+            select(name='category')
+                each category in categories
+                    option(value=category) #{category}
+            label(for="nom") Nom :
+            input(type="text", name='nom')
+            label(for="prix") Prix :
+            input(type="text", name='prix')
+            label(for="description") Description :
+            textarea(name="description")
+            label(for="allergenes") Allergènes :
+            input(type="text", name='allergenes')
+            label(for="img") Lien d'image :
+            input(type="text", name='img')
+            button(type="submit") Ajouter le plat

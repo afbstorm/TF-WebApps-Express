@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    h2 Détails du plat : #{dish.nom}
+    p Nom : #{dish.nom}
+    p Prix : #{dish.prix} €
+    h6 Liste des allergènes :
+        ul
+            each allergene in dish.allergenes
+                li #{allergene}

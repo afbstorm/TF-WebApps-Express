@@ -1,0 +1,17 @@
+extends layout
+
+block content
+    div.reservation-container
+        h2 Contactez-nous
+        form(action="/reservation", method='POST')
+            label(for="email") Email :
+            input(type="email",name='email')
+            label(for="firstname") Prénom :
+            input(type="text",name='firstname')
+            label(for="lastname") Nom de famille :
+            input(type="text",name='lastname')
+            label(for="phoneNumber") Téléphone :
+            input(type="text",name='phoneNumber')
+            label(for="message") Message :
+            textarea(name="message")
+            button(type="submit") Envoyer

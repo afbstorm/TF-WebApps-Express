@@ -1,0 +1,35 @@
+extends layout
+
+block content
+    div.home-container
+        if message
+            div.home-success
+                h4 #{message}
+            br
+            p.home-presentation Né de l'amour d'un immigré portugais pour sa cuisine natale, "O Fado" apporte une authentique saveur portugaise au cœur vibrant de Bruxelles, en Belgique.
+
+            h4 Nos plats du moment :
+
+            div.home-moment-dishes-container
+                div.home-moment-dishes
+                    img(src=mainDish.img)
+                    a(href=`/menus/details/plats/${mainDish.id}`) #{mainDish.nom}
+
+                div.home-moment-dishes
+                    img(src=entradas.img)
+                    a(href=`/menus/details/entrees/${mainDish.id}`) #{mainDish.nom}
+
+
+        else
+            p.home-presentation Né de l'amour d'un immigré portugais pour sa cuisine natale, "O Fado" apporte une authentique saveur portugaise au cœur vibrant de Bruxelles, en Belgique.
+
+                h4.titre Nos plats du moment :
+
+                div.home-moment-dishes-container
+                    div.home-moment-dishes
+                        img(src=mainDish.img)
+                        a(href=`/menus/details/plats/${mainDish.id}`) #{mainDish.nom}
+
+                    div.home-moment-dishes
+                        img(src=entradas.img)
+                        a(href=`/menus/details/entrees/${mainDish.id}`) #{mainDish.nom}

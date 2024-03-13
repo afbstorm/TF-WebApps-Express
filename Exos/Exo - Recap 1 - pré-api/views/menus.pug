@@ -1,0 +1,54 @@
+extends layout
+
+block content
+    div.menu-container
+        h2 Notre carte
+
+        h4(onclick='toggleAccordian("entradas")') Entradas
+            div#entradas.accordian
+                ul.dish-list
+                    each starter in starters
+                        li.dish-list-items
+                            a(href=`/menus/details/entrees/${starter.id}`).dish-link #{starter.nom}
+                            img(src=starter.img alt=starter.nom)
+                        p.dish-price #{starter.prix} €
+
+        h4(onclick='toggleAccordian("pratos")') Pratos
+            div#pratos.accordian
+                ul.dish-list
+                    each dish in mainDishes
+                        li.dish-list-items
+                            a(href=`/menus/details/plats/${dish.id}`).dish-link #{dish.nom}
+                            img(src=dish.img alt=dish.nom)
+                        p.dish-price #{dish.prix} €
+        h4(onclick='toggleAccordian("sobremesas")') Sobremesas
+            div#sobremesas.accordian
+                ul.dish-list
+                    each dessert in desserts
+                        li.dish-list-items
+                            a(href=`/menus/details/desserts/${dessert.id}`).dish-link #{dessert.nom}
+                            img(src=dessert.img alt=dessert.nom)
+                        p.dish-price #{dessert.prix} €
+        h4(onclick='toggleAccordian("vinhos")') Vinhos
+            div#vinhos.accordian
+                ul.dish-list
+                    each wine in wines
+                        li.dish-list-items
+                        p #{wine.nom}
+                        p.dish-price #{wine.prix} €
+        h4(onclick='toggleAccordian("trespratos")') Menu de três pratos 55 €
+        div#trespratos.accordian
+            h6 Entradas
+                ul
+                    each starter in threeServiceStarters
+                        li #{starter}
+            h6 Pratos
+                ul
+                    each dish in threeServiceDishes
+                        li #{dish}
+            h6 Sobremesas
+                ul
+                    each dessert in threeServiceDesserts
+                        li #{dessert}
+
+
