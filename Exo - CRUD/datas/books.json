@@ -1,0 +1,65 @@
+[
+  {
+    "id": 7,
+    "author": "Mark Twain",
+    "title": "Les aventures de Huckleberry Finn",
+    "edition": "Chatto & Windus",
+    "releaseYear": "1884",
+    "pageCount": "366",
+    "target": "Jeunesse"
+  },
+  {
+    "id": 6,
+    "author": "Herman Melville",
+    "title": "Moby Dick",
+    "edition": "Harper & Brothers",
+    "releaseYear": "1851",
+    "pageCount": "635",
+    "target": "Adulte"
+  },
+  {
+    "id": 5,
+    "author": "F. Scott Fitzgerald",
+    "title": "Gatsby le magnifique",
+    "edition": "Charles Scribner's Sons",
+    "releaseYear": "1925",
+    "pageCount": "180",
+    "target": "Adulte"
+  },
+  {
+    "id": 4,
+    "author": "Harper Lee",
+    "title": "Ne tirez pas sur l'oiseau moqueur",
+    "edition": "J.B. Lippincott & Co.",
+    "releaseYear": "1960",
+    "pageCount": "281",
+    "target": "Adulte"
+  },
+  {
+    "id": 3,
+    "author": "J.R.R. Tolkien",
+    "title": "Le Seigneur des Anneaux",
+    "edition": "Allen & Unwin",
+    "releaseYear": "1954",
+    "pageCount": "1178",
+    "target": "Adulte"
+  },
+  {
+    "id": 2,
+    "author": "J.K. Rowling",
+    "title": "Harry Potter à l'école des sorciers",
+    "edition": "Bloomsbury",
+    "releaseYear": "1997",
+    "pageCount": "223",
+    "target": "Jeunesse"
+  },
+  {
+    "id": 1,
+    "author": "Test",
+    "title": "Testtt",
+    "edition": "Chatto & Windus",
+    "releaseYear": "1884",
+    "pageCount": "366",
+    "target": "Jeunesse"
+  }
+]

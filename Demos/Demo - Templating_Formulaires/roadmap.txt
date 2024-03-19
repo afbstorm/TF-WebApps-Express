@@ -1,19 +1,19 @@
-1 - Création du fichier server.js et initialisation du serveur. 
+1 - Création du fichier server.js et initialisation du serveur.
     - Importation du router
     - Utilisation du middleware urlencoded
-    - Set du moteur de templating pug 
+    - Set du moteur de templating pug
     - Utilisation des fichiers statiques
     - Utilisation du router
 
-2 - Création des différents dossiers et fichiers : 
-    - Dossiers : 
+2 - Création des différents dossiers et fichiers :
+    - Dossiers :
                 - controllers
-                    - Fichiers : 
-                        - products.controller.js
+                    - Fichiers :
+                        - dishes.controller.js
                         - home.controller.js
-                        - contact.controller.js
+                        - reservation.controller.js
                 - datas
-                    - Fichier : 
+                    - Fichier :
                         - products.json
                 - views
                     - contact.pug
@@ -27,18 +27,18 @@
                             index.css
                 - routers
                     - Fichiers :
-                        - contact.router.js
+                        - reservation.router.js
                         - home.router.js
-                        - products.router.js
+                        - dishes.router.js
                         - router.js
 
-3 - Controllers : 
+3 - Controllers :
     - Création de fonctions qui vont être rattachées aux routes pour y générer les vues avec - ou pas - des paramètres
 
 4 - Routers :
     - Création de routes qui vont permettre aux users de se déplacer dans notre app
 
-5 - JSON : 
+5 - JSON :
     - Création du fichier avec la liste de produits
 
 6 - Views :
