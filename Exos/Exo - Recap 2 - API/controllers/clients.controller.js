@@ -72,7 +72,7 @@ const clientsController = {
                     email: user.email
                 };
                 const options = {
-                    expiresIn: '1d'
+                    expiresIn: '5s'
                 };
                 const secret = process.env.JWT_SECRET;
                 const token = jwt.sign(payload, secret, options);
