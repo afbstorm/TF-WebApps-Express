@@ -13,7 +13,6 @@ const jwtVerification = (req, res, next) => {
             if (err && err.name !== 'TokenExpiredError') {
                 res.sendStatus(403);
             } else if (err && err.name === 'TokenExpiredError') {
-                console.log('test');
                 // Non valide, car expiration atteinte
                 // On va récréer un token
                 // ⚠️ Non secure ⚠️
